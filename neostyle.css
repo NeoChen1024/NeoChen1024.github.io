@@ -84,4 +84,6 @@ a:active {
 table, th, td {
 	border: 2px solid black;
 	border-collapse: collapse;
+	font-family: Envy Code R,WenQuanYi Zen Hei Mono,monospace;
+	font-size:12pt;
 }
