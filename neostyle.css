@@ -3,8 +3,10 @@
  * Licensed Under GNU GPL v3
  */
 html {
-	border-width: 4px;
+	border-width: 4pt;
 	border-style: solid;
+	background-color:#c0c0c0;
+	color:black;
 }
 
 body {
@@ -13,12 +15,12 @@ body {
 }
 
 h1 {
-	font-family: Times,serif;
+	font-family: Times, Courier ,serif;
 	font-size:36pt;
 	text-align: center;
 	color:#000000;
 	border-style: solid;
-	border-width: 1px;
+	border-width: 1pt;
 	background-color:#008;
 	color:#fff
 }
@@ -29,12 +31,12 @@ h2 {
 	text-align: left;
 	color:#000000;
 	border-style: solid;
-	border-width: 1px;
+	border-width: 1pt;
 	background-color:#808080;
 	color:#fff
 }
 
-.mono, p, a {
+.mono, p {
 	font-family: Envy Code R,WenQuanYi Zen Hei Mono,monospace;
 	font-size:12pt;
 }
@@ -75,6 +77,7 @@ a:visited {
 
 a:hover {
 	color: #000;
+	background-color: #fff;
 }
 
 a:active {
@@ -86,4 +89,14 @@ table, th, td {
 	border-collapse: collapse;
 	font-family: Envy Code R,WenQuanYi Zen Hei Mono,monospace;
 	font-size:12pt;
+}
+
+.pre {
+	white-space: pre;
+	border-style: solid;
+	border-width: 2px;
+}
+
+.whitebg {
+	background-color: #fff;
 }
